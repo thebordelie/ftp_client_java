@@ -12,8 +12,6 @@ public class Client {
         this.ftpSocket = new Socket(host, port);
         this.inputStream = new BufferedReader(new InputStreamReader(ftpSocket.getInputStream()));
         this.outputStream = new BufferedWriter(new OutputStreamWriter(ftpSocket.getOutputStream()));
-        this.inputStream.readLine();
-        this.inputStream.readLine();
     }
 
     public void sendCommand(FtpTypeCommand command, String arg) throws IOException {
