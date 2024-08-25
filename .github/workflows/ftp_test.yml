@@ -15,5 +15,5 @@ jobs:
           cache: maven
       - name: Test
         run: |
-          mvn -B package --file task2/pom.xml
+          mvn -B package --file FtpClientTest/pom.xml
           
