@@ -19,3 +19,4 @@ java -jar FTPclient.jar \<login\> \<password\> \<host\> [<file_name>] , где
 
 В качестве FTP сервера использовался *File-Zilla Server*
 
+[Исполняемый jar файл](FTPclient.jar)
