@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="ftp-suite">
+    <test name="unit">
+        <classes>
+            <class name="ru.infotecs.intern.util.JsonConverterTest"/>
+            <class name="ru.infotecs.intern.command.AddCommandTest"/>
+            <class name="ru.infotecs.intern.command.DeleteCommandTest"/>
+            <class name="ru.infotecs.intern.command.GetInfoCommandTest"/>
+            <class name="ru.infotecs.intern.command.ShowCommandTest"/>
+        </classes>
+    </test>
+</suite>

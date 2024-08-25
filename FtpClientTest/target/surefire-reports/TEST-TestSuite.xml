@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="2.211" tests="11" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\thebo\IdeaProjects\FtpClientTest\target\test-classes;C:\Users\thebo\IdeaProjects\FtpClientTest\target\classes;C:\Users\thebo\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\thebo\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\thebo\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\thebo\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\thebo\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\thebo\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\thebo\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\thebo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.3\jackson-databind-2.13.3.jar;C:\Users\thebo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.3\jackson-annotations-2.13.3.jar;C:\Users\thebo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.3\jackson-core-2.13.3.jar;C:\Users\thebo\.m2\repository\org\mockito\mockito-core\5.3.1\mockito-core-5.3.1.jar;C:\Users\thebo\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\thebo\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.4\byte-buddy-agent-1.14.4.jar;C:\Users\thebo\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Samara"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\thebo\AppData\Local\Temp\surefire8533907963337428210\surefirebooter-20240826005101099_3.jar C:\Users\thebo\AppData\Local\Temp\surefire8533907963337428210 2024-08-26T00-51-00_391-jvmRun1 surefire-20240826005101099_1tmp surefire_0-20240826005101099_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\thebo\IdeaProjects\FtpClientTest\target\test-classes;C:\Users\thebo\IdeaProjects\FtpClientTest\target\classes;C:\Users\thebo\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\thebo\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\thebo\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\thebo\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\thebo\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\thebo\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\thebo\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\thebo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.3\jackson-databind-2.13.3.jar;C:\Users\thebo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.3\jackson-annotations-2.13.3.jar;C:\Users\thebo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.3\jackson-core-2.13.3.jar;C:\Users\thebo\.m2\repository\org\mockito\mockito-core\5.3.1\mockito-core-5.3.1.jar;C:\Users\thebo\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\thebo\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.4\byte-buddy-agent-1.14.4.jar;C:\Users\thebo\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\thebo"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-02"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\thebo\IdeaProjects\FtpClientTest"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\thebo\AppData\Local\Temp\surefire8533907963337428210\surefirebooter-20240826005101099_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.0.1+2-3"/>
+    <property name="user.name" value="thebo"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\thebo\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\thebo\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.0.1"/>
+    <property name="user.dir" value="C:\Users\thebo\IdeaProjects\FtpClientTest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapat;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\MinGW\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Redis\;C:\Program Files\Java\jdk-17.0.0.1\bin;C:\dev\apache-maven-3.9.9\bin;C:\Users\thebo\AppData\Local\Microsoft\WindowsApps;C:\Users\thebo\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;C:\Users\thebo\AppData\Roaming\npm;C:\Program Files\swipl\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.0.1+2-3"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="checkIncorrectId[{1=User{id=1, name=&apos;student1&apos;}, 2=User{id=2, name=&apos;Andrey&apos;}, 3=User{id=3, name=&apos;Katya&apos;}}](1)" classname="ru.infotecs.intern.command.AddCommandTest" time="0.067"/>
+  <testcase name="checkCorrectId[{1=User{id=1, name=&apos;student1&apos;}, 2=User{id=2, name=&apos;Andrey&apos;}, 3=User{id=3, name=&apos;Katya&apos;}}](1)" classname="ru.infotecs.intern.command.DeleteCommandTest" time="0.004"/>
+  <testcase name="checkIncorrectFormatId[{1=User{id=1, name=&apos;student1&apos;}, 2=User{id=2, name=&apos;Andrey&apos;}, 3=User{id=3, name=&apos;Katya&apos;}}](1)" classname="ru.infotecs.intern.command.DeleteCommandTest" time="0.001"/>
+  <testcase name="checkIncorrectId[{1=User{id=1, name=&apos;student1&apos;}, 2=User{id=2, name=&apos;Andrey&apos;}, 3=User{id=3, name=&apos;Katya&apos;}}](1)" classname="ru.infotecs.intern.command.DeleteCommandTest" time="0.002"/>
+  <testcase name="checkCorrectId[{1=User{id=1, name=&apos;student1&apos;}, 2=User{id=2, name=&apos;Andrey&apos;}, 3=User{id=3, name=&apos;Katya&apos;}}](1)" classname="ru.infotecs.intern.command.GetInfoCommandTest" time="0.003"/>
+  <testcase name="checkIncorrectFormatId[{1=User{id=1, name=&apos;student1&apos;}, 2=User{id=2, name=&apos;Andrey&apos;}, 3=User{id=3, name=&apos;Katya&apos;}}](1)" classname="ru.infotecs.intern.command.GetInfoCommandTest" time="0.001"/>
+  <testcase name="checkIncorrectId[{1=User{id=1, name=&apos;student1&apos;}, 2=User{id=2, name=&apos;Andrey&apos;}, 3=User{id=3, name=&apos;Katya&apos;}}](1)" classname="ru.infotecs.intern.command.GetInfoCommandTest" time="0.001"/>
+  <testcase name="checkOfCommandExecution[{1=User{id=1, name=&apos;student1&apos;}, 2=User{id=2, name=&apos;Andrey&apos;}, 3=User{id=3, name=&apos;Katya&apos;}}](1)" classname="ru.infotecs.intern.command.ShowCommandTest" time="0.003"/>
+  <testcase name="checkOfCommandExecutionOnEmptyFile" classname="ru.infotecs.intern.command.ShowCommandTest" time="0.0"/>
+  <testcase name="checkConvertJsonToUser" classname="ru.infotecs.intern.util.JsonConverterTest" time="0.066"/>
+  <testcase name="checkConvertUserToJson" classname="ru.infotecs.intern.util.JsonConverterTest" time="0.03"/>
+</testsuite>

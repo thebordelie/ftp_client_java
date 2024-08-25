@@ -1,0 +1,134 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Aug 26 00:51:03 SAMT 2024</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (278 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ru.infotecs.intern.util.JsonConverterTest.checkConvertJsonToUser()'><b>checkConvertJsonToUser</b><br>Test class: ru.infotecs.intern.util.JsonConverterTest<br>Test method: checking for the conversion of a json file to students</td>
+<td></td>
+<td>0</td>
+<td>ru.infotecs.intern.util.JsonConverterTest@18ca3c62</td></tr>
+<tr>
+<td title='ru.infotecs.intern.util.JsonConverterTest.checkConvertUserToJson()'><b>checkConvertUserToJson</b><br>Test class: ru.infotecs.intern.util.JsonConverterTest<br>Test method: checking for the conversion of students to a json file</td>
+<td></td>
+<td>0</td>
+<td>ru.infotecs.intern.util.JsonConverterTest@18ca3c62</td></tr>
+<tr>
+<td title='ru.infotecs.intern.command.DeleteCommandTest.checkCorrectId()'><b>checkCorrectId</b><br>Test class: ru.infotecs.intern.command.DeleteCommandTest<br>Test method: check correct id<br>Parameters: {1=User{id=1, name='student1'}, 2=User{id=2, name='Andrey'}, 3=User{id=3, name='Katya'}}</td>
+<td></td>
+<td>0</td>
+<td>ru.infotecs.intern.command.DeleteCommandTest@17f460bb</td></tr>
+<tr>
+<td title='ru.infotecs.intern.command.GetInfoCommandTest.checkCorrectId()'><b>checkCorrectId</b><br>Test class: ru.infotecs.intern.command.GetInfoCommandTest<br>Test method: check correct id<br>Parameters: {1=User{id=1, name='student1'}, 2=User{id=2, name='Andrey'}, 3=User{id=3, name='Katya'}}</td>
+<td></td>
+<td>0</td>
+<td>ru.infotecs.intern.command.GetInfoCommandTest@64a1923a</td></tr>
+<tr>
+<td title='ru.infotecs.intern.command.DeleteCommandTest.checkIncorrectFormatId()'><b>checkIncorrectFormatId</b><br>Test class: ru.infotecs.intern.command.DeleteCommandTest<br>Test method: check incorrect format id<br>Parameters: {1=User{id=1, name='student1'}, 2=User{id=2, name='Andrey'}, 3=User{id=3, name='Katya'}}</td>
+<td></td>
+<td>0</td>
+<td>ru.infotecs.intern.command.DeleteCommandTest@17f460bb</td></tr>
+<tr>
+<td title='ru.infotecs.intern.command.GetInfoCommandTest.checkIncorrectFormatId()'><b>checkIncorrectFormatId</b><br>Test class: ru.infotecs.intern.command.GetInfoCommandTest<br>Test method: check incorrect format id<br>Parameters: {1=User{id=1, name='student1'}, 2=User{id=2, name='Andrey'}, 3=User{id=3, name='Katya'}}</td>
+<td></td>
+<td>0</td>
+<td>ru.infotecs.intern.command.GetInfoCommandTest@64a1923a</td></tr>
+<tr>
+<td title='ru.infotecs.intern.command.AddCommandTest.checkIncorrectId()'><b>checkIncorrectId</b><br>Test class: ru.infotecs.intern.command.AddCommandTest<br>Test method: checking the addition of a new student and sending it to the server<br>Parameters: {1=User{id=1, name='student1'}, 2=User{id=2, name='Andrey'}, 3=User{id=3, name='Katya'}}</td>
+<td></td>
+<td>0</td>
+<td>ru.infotecs.intern.command.AddCommandTest@678040b3</td></tr>
+<tr>
+<td title='ru.infotecs.intern.command.DeleteCommandTest.checkIncorrectId()'><b>checkIncorrectId</b><br>Test class: ru.infotecs.intern.command.DeleteCommandTest<br>Test method: check incorrect id<br>Parameters: {1=User{id=1, name='student1'}, 2=User{id=2, name='Andrey'}, 3=User{id=3, name='Katya'}}</td>
+<td></td>
+<td>0</td>
+<td>ru.infotecs.intern.command.DeleteCommandTest@17f460bb</td></tr>
+<tr>
+<td title='ru.infotecs.intern.command.GetInfoCommandTest.checkIncorrectId()'><b>checkIncorrectId</b><br>Test class: ru.infotecs.intern.command.GetInfoCommandTest<br>Test method: check incorrect id<br>Parameters: {1=User{id=1, name='student1'}, 2=User{id=2, name='Andrey'}, 3=User{id=3, name='Katya'}}</td>
+<td></td>
+<td>0</td>
+<td>ru.infotecs.intern.command.GetInfoCommandTest@64a1923a</td></tr>
+<tr>
+<td title='ru.infotecs.intern.command.ShowCommandTest.checkOfCommandExecution()'><b>checkOfCommandExecution</b><br>Test class: ru.infotecs.intern.command.ShowCommandTest<br>Test method: checking the result of the command execution<br>Parameters: {1=User{id=1, name='student1'}, 2=User{id=2, name='Andrey'}, 3=User{id=3, name='Katya'}}</td>
+<td></td>
+<td>0</td>
+<td>ru.infotecs.intern.command.ShowCommandTest@7d2a6eac</td></tr>
+<tr>
+<td title='ru.infotecs.intern.command.ShowCommandTest.checkOfCommandExecutionOnEmptyFile()'><b>checkOfCommandExecutionOnEmptyFile</b><br>Test class: ru.infotecs.intern.command.ShowCommandTest<br>Test method: checking empty file</td>
+<td></td>
+<td>0</td>
+<td>ru.infotecs.intern.command.ShowCommandTest@7d2a6eac</td></tr>
+</table><p>
+</body>
+</html>
